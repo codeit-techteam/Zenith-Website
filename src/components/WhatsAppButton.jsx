@@ -2,7 +2,7 @@ import React from 'react';
 import { MessageCircle } from 'lucide-react';
 
 const WhatsAppButton = () => {
-    const phoneNumber = '916291813121'; // WhatsApp number without + or spaces
+    const phoneNumber = '919123092443'; // WhatsApp number without + or spaces
     const message = 'Hi! I would like to book a free demo class.';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 

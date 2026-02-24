@@ -29,7 +29,7 @@ const Hero = () => {
                                 Book Free Demo
                                 <ArrowRight size={20} />
                             </button>
-                            <a href="tel:6291813121" className="w-full sm:w-auto px-8 py-4 bg-white/10 hover:bg-white/20 text-white border-2 border-accent rounded-xl font-semibold transition-all flex items-center justify-center gap-2 group">
+                            <a href="tel:9123092443" className="w-full sm:w-auto px-8 py-4 bg-white/10 hover:bg-white/20 text-white border-2 border-accent rounded-xl font-semibold transition-all flex items-center justify-center gap-2 group">
                                 <Phone size={20} className="group-hover:text-accent transition-colors" />
                                 Call Us Now
                             </a>

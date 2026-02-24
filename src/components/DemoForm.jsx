@@ -91,8 +91,8 @@ const DemoForm = () => {
                         <div className="mt-8 p-6 bg-accent/10 border border-accent rounded-xl">
                             <p className="text-white font-semibold mb-2">Or call us directly:</p>
                             <div className="flex flex-col sm:flex-row gap-3">
-                                <a href="tel:9681341693" className="text-accent font-bold text-lg hover:text-accent-hover transition-colors">
-                                    📞 +91 6291813121
+                                <a href="tel:9123092443" className="text-accent font-bold text-lg hover:text-accent-hover transition-colors">
+                                    📞 +91 9123092443
                                 </a>
                             </div>
                             <p className="text-gray-400 text-sm mt-2">LIMITED SEATS AVAILABLE FOR THIS BATCH</p>

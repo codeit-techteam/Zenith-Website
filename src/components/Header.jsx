@@ -42,7 +42,7 @@ const Header = () => {
                     </div>
 
                     <div className="hidden md:flex items-center gap-4">
-                        <a href="tel:6291813121" className="text-accent hover:text-accent-hover flex items-center gap-2 font-semibold">
+                        <a href="tel:9123092443" className="text-accent hover:text-accent-hover flex items-center gap-2 font-semibold">
                             <Phone size={18} />
                             Call Now
                         </a>
@@ -76,7 +76,7 @@ const Header = () => {
                                 {item.name}
                             </a>
                         ))}
-                        <a href="tel:6291813121" className="text-accent hover:text-accent-hover flex items-center gap-2 px-3 py-2 font-semibold">
+                        <a href="tel:9123092443" className="text-accent hover:text-accent-hover flex items-center gap-2 px-3 py-2 font-semibold">
                             <Phone size={18} />
                             Call Now
                         </a>

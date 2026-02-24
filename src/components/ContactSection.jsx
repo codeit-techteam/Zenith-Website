@@ -68,7 +68,7 @@ const ContactSection = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-slate-900">Call Us</h4>
-                                    <p className="text-slate-600">+91 98765 43210</p>
+                                    <p className="text-slate-600">+91 91230 92443</p>
                                     <p className="text-slate-500 text-sm">Mon-Sat, 9am - 7pm</p>
                                 </div>
                             </div>

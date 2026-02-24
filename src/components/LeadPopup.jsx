@@ -127,7 +127,7 @@ const LeadPopup = () => {
                                     type="tel"
                                     required
                                     className="w-full px-4 py-2 rounded-lg border border-slate-200 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all"
-                                    placeholder="+91 98765 43210"
+                                    placeholder="+91 91230 92443"
                                     value={formData.phone}
                                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                                 />

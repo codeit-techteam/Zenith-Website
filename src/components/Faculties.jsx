@@ -1,5 +1,6 @@
 import React from 'react';
-import { Phone, Mail } from 'lucide-react';
+import { Phone } from 'lucide-react';
+import shoaibPhoto from '../assets/shoaib.jpg';
 
 const Faculties = () => {
     const mentors = [
@@ -8,10 +9,9 @@ const Faculties = () => {
             college: "IIT Madras",
             specialization: "CBSE, NTSE, Olympiads & IIT-JEE/NEET Foundation",
             experience: "6+ years",
-            image: "https://api.dicebear.com/7.x/avataaars/svg?seed=shoaib",
+            image: shoaibPhoto,
             featured: true,
-            phone1: "9681341693",
-            phone2: "7980978482"
+            phone1: "9123092443"
         },
         {
             name: "Arjun Mehta",
@@ -77,10 +77,6 @@ const Faculties = () => {
                                     <a href={`tel:${mentors[0].phone1}`} className="flex items-center gap-2 bg-accent text-black px-6 py-3 rounded-lg font-semibold hover:bg-accent-hover transition-colors">
                                         <Phone size={18} />
                                         {mentors[0].phone1}
-                                    </a>
-                                    <a href={`tel:${mentors[0].phone2}`} className="flex items-center gap-2 bg-white/10 text-white border border-accent px-6 py-3 rounded-lg font-semibold hover:bg-accent hover:text-black transition-colors">
-                                        <Phone size={18} />
-                                        {mentors[0].phone2}
                                     </a>
                                 </div>
                             </div>
