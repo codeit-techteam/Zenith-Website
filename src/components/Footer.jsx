@@ -28,20 +28,20 @@ const Footer = () => {
                     <div>
                         <h4 className="text-lg font-bold text-white mb-6">Programs</h4>
                         <ul className="space-y-3 text-sm">
-                            <li className="hover:text-accent cursor-pointer transition-colors">Online Group Classes</li>
-                            <li className="hover:text-accent cursor-pointer transition-colors">1-on-1 Mentorship</li>
-                            <li className="hover:text-accent cursor-pointer transition-colors">Performance Tracking</li>
-                            <li className="hover:text-accent cursor-pointer transition-colors">CBSE Foundation</li>
+                            <li><a href="#programs" className="hover:text-accent transition-colors">Online Group Classes</a></li>
+                            <li><a href="#programs" className="hover:text-accent transition-colors">1-on-1 Mentorship</a></li>
+                            <li><a href="#programs" className="hover:text-accent transition-colors">Performance Tracking</a></li>
+                            <li><a href="#programs" className="hover:text-accent transition-colors">CBSE Foundation</a></li>
                         </ul>
                     </div>
 
                     <div>
                         <h4 className="text-lg font-bold text-white mb-6">Quick Links</h4>
                         <ul className="space-y-3 text-sm">
-                            <li className="hover:text-accent cursor-pointer transition-colors">About Us</li>
-                            <li className="hover:text-accent cursor-pointer transition-colors">Our Faculties</li>
-                            <li className="hover:text-accent cursor-pointer transition-colors">Success Stories</li>
-                            <li className="hover:text-accent cursor-pointer transition-colors">Contact</li>
+                            <li><a href="#about" className="hover:text-accent transition-colors">About Us</a></li>
+                            <li><a href="#faculties" className="hover:text-accent transition-colors">Our Faculties</a></li>
+                            <li><a href="#results" className="hover:text-accent transition-colors">Success Stories</a></li>
+                            <li><a href="#demo" className="hover:text-accent transition-colors">Contact</a></li>
                         </ul>
                     </div>
 
