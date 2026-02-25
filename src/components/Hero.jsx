@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRight, Phone } from 'lucide-react';
-import heroImg from '../assets/kid2.png';
+import heroImg from '../assets/hero-kids.jpg';
 
 const Hero = () => {
     return (
