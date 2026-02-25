@@ -55,7 +55,7 @@ const DemoForm = () => {
     };
 
     return (
-        <section className="py-20 lg:py-32 bg-black">
+        <section id="demo" className="py-20 lg:py-32 bg-black">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     {/* Left Side - Info */}
@@ -169,10 +169,10 @@ const DemoForm = () => {
                                     className="w-full px-4 py-3 bg-white/5 border border-white/20 rounded-lg text-white focus:outline-none focus:border-accent transition-colors"
                                 >
                                     <option value="" className="bg-black">Select subject</option>
-                                    <option value="Math" className="bg-black">Mathematics</option>
+                                    <option value="Mathematics" className="bg-black">Mathematics</option>
                                     <option value="Science" className="bg-black">Science</option>
-                                    <option value="Both" className="bg-black">Both (Math & Science)</option>
-                                    <option value="All Subjects" className="bg-black">All Subjects</option>
+                                    <option value="Physics" className="bg-black">Physics</option>
+                                    <option value="Chemistry" className="bg-black">Chemistry</option>
                                 </select>
                             </div>
 

@@ -46,9 +46,9 @@ const Header = () => {
                             <Phone size={18} />
                             Call Now
                         </a>
-                        <button className="bg-accent hover:bg-accent-hover text-black px-6 py-2 rounded-lg font-bold transition-all transform hover:scale-105 yellow-glow">
+                        <a href="#demo" className="bg-accent hover:bg-accent-hover text-black px-6 py-2 rounded-lg font-bold transition-all transform hover:scale-105 yellow-glow">
                             Book Demo
-                        </button>
+                        </a>
                     </div>
 
                     <div className="md:hidden">
@@ -80,9 +80,9 @@ const Header = () => {
                             <Phone size={18} />
                             Call Now
                         </a>
-                        <button className="w-full mt-4 bg-accent text-black px-6 py-3 rounded-lg font-bold yellow-glow">
+                        <a href="#demo" className="w-full mt-4 bg-accent text-black px-6 py-3 rounded-lg font-bold yellow-glow block text-center">
                             Book Demo
-                        </button>
+                        </a>
                     </div>
                 </div>
             )}

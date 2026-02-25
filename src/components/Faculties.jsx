@@ -14,33 +14,41 @@ const Faculties = () => {
             phone1: "9123092443"
         },
         {
-            name: "Arjun Mehta",
-            college: "IIT Delhi",
-            specialization: "Mathematics & Physics Expert",
-            experience: "5+ years",
-            image: "https://api.dicebear.com/7.x/avataaars/svg?seed=arjun",
+            name: "Princy Mittal",
+            college: "Delhi University",
+            specialization: "Maths Mentor",
+            qualification: "M.Sc Mathematics",
+            image: "/assets/princy.jpg",
             featured: false
         },
         {
-            name: "Priya Sharma",
-            college: "IIT Bombay",
-            specialization: "Chemistry & Biology Specialist",
-            experience: "4+ years",
-            image: "https://api.dicebear.com/7.x/avataaars/svg?seed=priya",
+            name: "Arjun Chatterjee",
+            college: "NIT Durgapur",
+            specialization: "Physics Mentor",
+            qualification: "B.Tech",
+            image: "/assets/arjun-chatterjee.jpg",
             featured: false
         },
         {
-            name: "Rohan Das",
-            college: "NIT Trichy",
-            specialization: "Chemistry Expert",
-            experience: "5+ years",
-            image: "https://api.dicebear.com/7.x/avataaars/svg?seed=rohan",
+            name: "Nita Bharti",
+            college: "Calcutta University",
+            specialization: "Maths & Science Mentor",
+            qualification: "CSE",
+            image: "/assets/nita.jpg",
+            featured: false
+        },
+        {
+            name: "Saqlean Zafar",
+            college: "NIT Durgapur",
+            specialization: "Chemistry Mentor",
+            qualification: "B.Tech",
+            image: "/assets/saqlean.jpg",
             featured: false
         }
     ];
 
     return (
-        <section className="py-20 lg:py-32 bg-black">
+        <section id="faculties" className="py-20 lg:py-32 bg-black">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
@@ -85,7 +93,7 @@ const Faculties = () => {
                 </div>
 
                 {/* Other Mentors Grid */}
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {mentors.slice(1).map((mentor, index) => (
                         <div key={index} className="bg-black border-2 border-white/20 rounded-2xl p-6 hover:border-accent yellow-glow-hover transition-all transform hover:-translate-y-2">
                             <div className="relative mb-6">
@@ -99,8 +107,8 @@ const Faculties = () => {
 
                             <div className="text-center mt-8">
                                 <h3 className="text-xl font-bold text-white mb-2">{mentor.name}</h3>
-                                <p className="text-gray-400 text-sm mb-3">{mentor.specialization}</p>
-                                <p className="text-accent font-semibold text-sm">{mentor.experience} Experience</p>
+                                <p className="text-accent font-semibold text-sm mb-1">{mentor.specialization}</p>
+                                <p className="text-gray-400 text-sm">{mentor.qualification} - {mentor.college}</p>
                             </div>
                         </div>
                     ))}

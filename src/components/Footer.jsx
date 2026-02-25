@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, Instagram } from 'lucide-react';
 import logo from '../assets/ZENITH.jpeg';
 
 const Footer = () => {
@@ -19,9 +19,9 @@ const Footer = () => {
                         </p>
                         <div className="flex gap-4 pt-2">
                             <Facebook size={20} className="hover:text-accent cursor-pointer transition-colors" />
-                            <Twitter size={20} className="hover:text-accent cursor-pointer transition-colors" />
-                            <Instagram size={20} className="hover:text-accent cursor-pointer transition-colors" />
-                            <Linkedin size={20} className="hover:text-accent cursor-pointer transition-colors" />
+                            <a href="https://www.instagram.com/zenith_edutech/" target="_blank" rel="noopener noreferrer">
+                                <Instagram size={20} className="hover:text-accent cursor-pointer transition-colors" />
+                            </a>
                         </div>
                     </div>
 
