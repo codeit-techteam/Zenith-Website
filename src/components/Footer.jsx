@@ -28,20 +28,20 @@ const Footer = () => {
                     <div>
                         <h4 className="text-lg font-bold text-white mb-6">Programs</h4>
                         <ul className="space-y-3 text-sm">
-                            <li><a href="#programs" className="hover:text-accent transition-colors">Online Group Classes</a></li>
-                            <li><a href="#programs" className="hover:text-accent transition-colors">1-on-1 Mentorship</a></li>
-                            <li><a href="#programs" className="hover:text-accent transition-colors">Performance Tracking</a></li>
-                            <li><a href="#programs" className="hover:text-accent transition-colors">CBSE Foundation</a></li>
+                            <li><a href="/#programs" className="hover:text-accent transition-colors">Online Group Classes</a></li>
+                            <li><a href="/#programs" className="hover:text-accent transition-colors">1-on-1 Mentorship</a></li>
+                            <li><a href="/#programs" className="hover:text-accent transition-colors">Performance Tracking</a></li>
+                            <li><a href="/#programs" className="hover:text-accent transition-colors">CBSE Foundation</a></li>
                         </ul>
                     </div>
 
                     <div>
                         <h4 className="text-lg font-bold text-white mb-6">Quick Links</h4>
                         <ul className="space-y-3 text-sm">
-                            <li><a href="#about" className="hover:text-accent transition-colors">About Us</a></li>
-                            <li><a href="#faculties" className="hover:text-accent transition-colors">Our Faculties</a></li>
-                            <li><a href="#results" className="hover:text-accent transition-colors">Success Stories</a></li>
-                            <li><a href="#demo" className="hover:text-accent transition-colors">Contact</a></li>
+                            <li><a href="/#about" className="hover:text-accent transition-colors">About Us</a></li>
+                            <li><a href="/#faculties" className="hover:text-accent transition-colors">Our Faculties</a></li>
+                            <li><a href="/#results" className="hover:text-accent transition-colors">Success Stories</a></li>
+                            <li><a href="/#demo" className="hover:text-accent transition-colors">Contact</a></li>
                         </ul>
                     </div>
 
@@ -54,7 +54,7 @@ const Footer = () => {
                             </li>
                             <li className="flex items-center gap-2">
                                 <Mail size={16} className="text-accent" />
-                                <a href="mailto:info@zenith.edu" className="hover:text-accent transition-colors">info@zenith.edu</a>
+                                <a href="mailto:tuitionzenith@gmail.com" className="hover:text-accent transition-colors">tuitionzenith@gmail.com</a>
                             </li>
                         </ul>
                     </div>

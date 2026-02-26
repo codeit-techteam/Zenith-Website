@@ -1,22 +1,24 @@
 import React, { useState } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import logo from '../assets/ZENITH.jpeg';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const navItems = [
-        { name: 'Programs', href: '#programs' },
-        { name: 'Faculties', href: '#faculties' },
-        { name: 'Results', href: '#results' },
-        { name: 'About', href: '#about' },
+        { name: 'Home', href: '/' },
+        { name: 'Programs', href: '/#programs' },
+        { name: 'Faculties', href: '/#faculties' },
+        { name: 'Results', href: '/#results' },
+        { name: 'About', href: '/#about' },
     ];
 
     return (
         <nav className="fixed w-full z-50 glass-dark border-b border-accent/20">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
-                    <div className="flex-shrink-0 cursor-pointer flex items-center gap-3">
+                    <Link to="/" className="flex-shrink-0 cursor-pointer flex items-center gap-3">
                         <img
                             src={logo}
                             alt="Zenith Edutech"
@@ -25,7 +27,7 @@ const Header = () => {
                         <span className="hidden sm:inline-block px-3 py-1 bg-accent/10 border border-accent rounded-full text-accent text-xs font-bold">
                             Since 2020
                         </span>
-                    </div>
+                    </Link>
 
                     <div className="hidden md:block">
                         <div className="ml-10 flex items-baseline space-x-8">
@@ -46,7 +48,7 @@ const Header = () => {
                             <Phone size={18} />
                             Call Now
                         </a>
-                        <a href="#demo" className="bg-accent hover:bg-accent-hover text-black px-6 py-2 rounded-lg font-bold transition-all transform hover:scale-105 yellow-glow">
+                        <a href="https://wa.me/919123092443?text=Hi%2C%20I%20want%20to%20book%20a%20demo%20class" target="_blank" rel="noopener noreferrer" className="bg-accent hover:bg-accent-hover text-black px-6 py-2 rounded-lg font-bold transition-all transform hover:scale-105 yellow-glow">
                             Book Demo
                         </a>
                     </div>
@@ -80,7 +82,7 @@ const Header = () => {
                             <Phone size={18} />
                             Call Now
                         </a>
-                        <a href="#demo" className="w-full mt-4 bg-accent text-black px-6 py-3 rounded-lg font-bold yellow-glow block text-center">
+                        <a href="https://wa.me/919123092443?text=Hi%2C%20I%20want%20to%20book%20a%20demo%20class" target="_blank" rel="noopener noreferrer" className="w-full mt-4 bg-accent text-black px-6 py-3 rounded-lg font-bold yellow-glow block text-center">
                             Book Demo
                         </a>
                     </div>

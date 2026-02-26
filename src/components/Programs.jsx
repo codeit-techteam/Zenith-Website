@@ -8,18 +8,21 @@ const Programs = () => {
             title: 'Online Group Classes',
             description: 'Small batch (Max 8 students) focused on NCERT clarity & exam preparation.',
             icon: Users,
-            badge: 'POPULAR'
+            badge: 'POPULAR',
+            link: '/programs/online-group-classes'
         },
         {
             title: '1-on-1 Mentorship',
             description: 'Personalized learning, flexible timings & doubt solving.',
             icon: UserCheck,
-            badge: 'POPULAR'
+            badge: 'POPULAR',
+            link: '/programs/one-on-one-mentorship'
         },
         {
             title: 'Performance Tracking',
             description: 'Weekly tests, progress reports & structured improvement.',
-            icon: TrendingUp
+            icon: TrendingUp,
+            link: '/programs/performance-tracking'
         }
     ];
 
@@ -45,6 +48,7 @@ const Programs = () => {
                             description={program.description}
                             badge={program.badge}
                             buttonText="View Details"
+                            link={program.link}
                         />
                     ))}
                 </div>

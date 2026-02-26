@@ -9,7 +9,7 @@ const highlights = [
     },
     {
         icon: Clock,
-        title: '4+ Years of Teaching Excellence',
+        title: '5+ Years of Teaching Excellence',
     },
     {
         icon: UserCheck,

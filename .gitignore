@@ -23,3 +23,15 @@ dist/
 # logs
 *.log
 npm-debug.log*
+
+# large media files
+*.mp4
+*.mov
+*.avi
+
+# lock files
+package-lock.json
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -17,7 +17,7 @@ const Hero = () => {
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     <div className="text-center lg:text-left space-y-8">
                         <h1 className="text-5xl lg:text-7xl font-bold leading-tight tracking-tight text-white">
-                            Get an IITian Mentor for{' '}
+                            Get an IITian/NITian Mentor for{' '}
                             <span className="text-gradient">Your Child</span>
                         </h1>
                         <p className="text-lg lg:text-xl text-gray-300 max-w-2xl mx-auto lg:mx-0">
@@ -25,10 +25,10 @@ const Hero = () => {
                         </p>
 
                         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-                            <button className="w-full sm:w-auto px-8 py-4 bg-accent hover:bg-accent-hover text-black rounded-xl font-bold shadow-lg shadow-accent/30 transition-all transform hover:-translate-y-1 flex items-center justify-center gap-2">
-                                Book Free Demo
+                            <a href="https://wa.me/919123092443?text=Hi%2C%20I%20want%20to%20book%20a%20demo%20class" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-4 bg-accent hover:bg-accent-hover text-black rounded-xl font-bold shadow-lg shadow-accent/30 transition-all transform hover:-translate-y-1 flex items-center justify-center gap-2">
+                                Book Demo
                                 <ArrowRight size={20} />
-                            </button>
+                            </a>
                             <a href="tel:9123092443" className="w-full sm:w-auto px-8 py-4 bg-white/10 hover:bg-white/20 text-white border-2 border-accent rounded-xl font-semibold transition-all flex items-center justify-center gap-2 group">
                                 <Phone size={20} className="group-hover:text-accent transition-colors" />
                                 Call Us Now

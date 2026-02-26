@@ -14,11 +14,11 @@ const Faculties = () => {
             phone1: "9123092443"
         },
         {
-            name: "Princy Mittal",
-            college: "Delhi University",
+            name: "Gouhar Shakil",
+            college: "NIT Andhra Pradesh",
             specialization: "Maths Mentor",
-            qualification: "M.Sc Mathematics",
-            image: "/assets/princy.jpg",
+            qualification: "B.Tech",
+            image: "/assets/gouhar.jpg",
             featured: false
         },
         {
@@ -30,11 +30,11 @@ const Faculties = () => {
             featured: false
         },
         {
-            name: "Nita Bharti",
-            college: "Calcutta University",
-            specialization: "Maths & Science Mentor",
+            name: "Sumit Prasad",
+            college: "IIT Bombay",
+            specialization: "Physics & Chemistry Mentor",
             qualification: "CSE",
-            image: "/assets/nita.jpg",
+            image: "/assets/sumit.jpg",
             featured: false
         },
         {

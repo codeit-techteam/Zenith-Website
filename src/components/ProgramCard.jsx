@@ -1,6 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const ProgramCard = ({ icon: Icon, title, description, badge, buttonText = "Learn More" }) => {
+const ProgramCard = ({ icon: Icon, title, description, badge, buttonText = "Learn More", link }) => {
+    const ButtonContent = () => (
+        <>
+            {buttonText}
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+            </svg>
+        </>
+    );
+
     return (
         <div className="group relative bg-black border-2 border-white/20 rounded-2xl p-8 hover:border-accent yellow-glow-hover transition-all duration-300 transform hover:-translate-y-2">
             {/* Badge */}
@@ -22,12 +32,15 @@ const ProgramCard = ({ icon: Icon, title, description, badge, buttonText = "Lear
             <p className="text-gray-300 leading-relaxed mb-6">{description}</p>
 
             {/* Button */}
-            <button className="flex items-center gap-2 text-accent font-semibold group-hover:gap-4 transition-all">
-                {buttonText}
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                </svg>
-            </button>
+            {link ? (
+                <Link to={link} className="flex items-center gap-2 text-accent font-semibold group-hover:gap-4 transition-all">
+                    <ButtonContent />
+                </Link>
+            ) : (
+                <button className="flex items-center gap-2 text-accent font-semibold group-hover:gap-4 transition-all">
+                    <ButtonContent />
+                </button>
+            )}
         </div>
     );
 };

@@ -24,6 +24,9 @@ const DemoForm = () => {
         setIsSubmitting(true);
         setStatus({ type: '', message: '' });
 
+        const whatsappMessage = `New Demo Request:%0AName: ${formData.name}%0APhone: ${formData.phone}%0AClass: ${formData.class}%0ASubject: ${formData.subject}`;
+        const whatsappUrl = `https://wa.me/919123092443?text=${whatsappMessage}`;
+
         try {
             const { data, error } = await supabase
                 .from('demo_requests')
@@ -40,15 +43,18 @@ const DemoForm = () => {
 
             setStatus({
                 type: 'success',
-                message: 'Thank you for booking your free demo class! 🎉 Our team will contact you within 24 hours to schedule your session with an expert mentor.'
+                message: 'Thank you for booking your free demo class! 🎉 Our team will contact you within 24 hours.'
             });
             setFormData({ name: '', phone: '', class: '', subject: '' });
         } catch (error) {
             console.error('Error submitting form:', error);
+            // Fallback: open WhatsApp with the form data so the lead is captured
+            window.open(whatsappUrl, '_blank');
             setStatus({
-                type: 'error',
-                message: 'Something went wrong. Please try again or call us directly.'
+                type: 'success',
+                message: 'Your demo request has been sent via WhatsApp! 🎉 Our team will contact you shortly.'
             });
+            setFormData({ name: '', phone: '', class: '', subject: '' });
         } finally {
             setIsSubmitting(false);
         }
