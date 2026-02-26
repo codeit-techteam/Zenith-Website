@@ -123,7 +123,7 @@ const OnlineGroupClasses = () => {
                                     className="w-full aspect-video bg-gray-900 object-cover"
                                     preload="metadata"
                                 >
-                                    <source src="/assets/zenith 2.mp4" type="video/mp4" />
+                                    <source src="/assets/zenith_two.mp4" type="video/mp4" />
                                     Your browser does not support the video tag.
                                 </video>
                             </div>

@@ -123,7 +123,7 @@ const OneOnOneMentorship = () => {
                                     className="w-full aspect-video bg-gray-900 object-cover"
                                     preload="metadata"
                                 >
-                                    <source src="/assets/zenith one.mp4" type="video/mp4" />
+                                    <source src="/assets/zenith_one.mp4" type="video/mp4" />
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
