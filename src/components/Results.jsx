@@ -94,7 +94,7 @@ const Results = () => {
                         <p className="text-gray-400">Success Rate</p>
                     </div>
                     <div className="text-center">
-                        <div className="text-4xl lg:text-5xl font-bold text-accent mb-2">500+</div>
+                        <div className="text-4xl lg:text-5xl font-bold text-accent mb-2">3000+</div>
                         <p className="text-gray-400">Students</p>
                     </div>
                     <div className="text-center">

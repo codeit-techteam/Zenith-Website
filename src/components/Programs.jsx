@@ -19,8 +19,8 @@ const Programs = () => {
             link: '/programs/one-on-one-mentorship'
         },
         {
-            title: 'Performance Tracking',
-            description: 'Weekly tests, progress reports & structured improvement.',
+            title: 'Weekly Tests',
+            description: 'Performance tracking, progress reports & structured improvement.',
             icon: TrendingUp,
             link: '/programs/performance-tracking'
         }

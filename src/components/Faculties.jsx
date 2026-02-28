@@ -14,6 +14,22 @@ const Faculties = () => {
             phone1: "9123092443"
         },
         {
+            name: "Sumit Prasad",
+            college: "IIT Bombay",
+            specialization: "Physics & Chemistry Mentor",
+            qualification: "CSE",
+            image: "/assets/sumit.jpg",
+            featured: false
+        },
+        {
+            name: "Nitesh Monadal",
+            college: "IIT Bombay",
+            specialization: "Chemistry Mentor",
+            qualification: "B.Tech",
+            image: "/assets/Nitesh.jpg",
+            featured: false
+        },
+        {
             name: "Gouhar Shakil",
             college: "NIT Andhra Pradesh",
             specialization: "Maths Mentor",
@@ -27,22 +43,6 @@ const Faculties = () => {
             specialization: "Physics Mentor",
             qualification: "B.Tech",
             image: "/assets/arjun-chatterjee.jpg",
-            featured: false
-        },
-        {
-            name: "Sumit Prasad",
-            college: "IIT Bombay",
-            specialization: "Physics & Chemistry Mentor",
-            qualification: "CSE",
-            image: "/assets/sumit.jpg",
-            featured: false
-        },
-        {
-            name: "Saqlean Zafar",
-            college: "NIT Durgapur",
-            specialization: "Chemistry Mentor",
-            qualification: "B.Tech",
-            image: "/assets/saqlean.jpg",
             featured: false
         }
     ];
